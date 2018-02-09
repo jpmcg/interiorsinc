@@ -92,12 +92,16 @@ a:focus, .btn:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn:acti
 }
 /* Navigation */
 #menu {
-	padding: 20px;
+	padding: 0 20px;
+	padding-top: 0px;
 	transition: all 0.8s;
+	max-height: 85px;
 }
 #menu.navbar-default {
-	background-color: rgba(248, 248, 248, 0);
-	border-color: rgba(231, 231, 231, 0);
+	/* background-color: rgba(248, 248, 248, 0.9); */
+	background-color: #fff;
+	border-color: rgba(231, 231, 231, 0);	
+	border-bottom: 1px solid #ccc;
 }
 #menu a.navbar-brand {
 	font-size: 22px;
@@ -110,9 +114,10 @@ a:focus, .btn:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn:acti
 	text-transform: uppercase;
 	color: #ead45d;
 	color: #fff;
-	font-weight: 400;
+	color: #777;
+	font-weight: 700;
 	font-size: 15px;
-	padding: 5px 0;
+	padding: 25px 0;
 	border: 2px solid transparent;
 	letter-spacing: 0.5px;
 	margin: 10px 15px 0 15px;
@@ -120,6 +125,20 @@ a:focus, .btn:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn:acti
 #menu.navbar-default .navbar-nav > li > a:hover {
 	color: #eee;
 }
+
+.logo{
+	height: 70px;
+	/* position: relative; */
+	/* top: 0px; */
+	/* left: 15px; */
+}
+
+.navbar-brand{
+	padding-top: 5px;
+	height: 85px;
+	max-height: 85px;
+}
+
 .on {
 	background-color: #363636 !important;
 	padding: 0 !important;

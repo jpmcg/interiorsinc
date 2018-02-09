@@ -22,9 +22,9 @@ function main() {
     $(window).bind('scroll', function() {
         var navHeight = $(window).height() - 500;
         if ($(window).scrollTop() > navHeight) {
-            $('.navbar-default').addClass('on');
+            $('.navbar-default').addClass('onx');
         } else {
-            $('.navbar-default').removeClass('on');
+            $('.navbar-default').removeClass('onx');
         }
     });
 
